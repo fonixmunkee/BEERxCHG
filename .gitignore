@@ -1,0 +1,11 @@
+# Machine-specific config (admin emails etc.; copy config.local.example.php)
+includes/config.local.php
+
+# Runtime data: SQLite database, secret key, mail log
+data/*
+!data/.htaccess
+!data/.gitkeep
+
+*.log
+.DS_Store
+*.swp
